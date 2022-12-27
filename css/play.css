@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #72d6bf;
+    height: 100%;
+    width: 100%;
+
+    background-image: url(../img/款式.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+/* 下面的框 */
+.selectframe{
+    width:92%;
+    height: 330px;
+    background-color:#fafaea;
+    border: #72d6bf;
+    border: 30px solid #ededab;
+
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    bottom: 0px;
+
+    text-align: center;
+    font-size: 50px;
+}
+
+/* 上面的框 */
+.topframe{
+    width: 500px;
+    /* height: 50px; */
+
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 150px;
+}
+
+.nextbt{
+    width: 150px;
+
+    position:absolute;
+    left: 80%;
+    transform: translate(-50%,0);
+    top: 150px;
+}
